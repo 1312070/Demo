@@ -1,0 +1,18 @@
+<h1>Add a New Post </h1>
+<%= link_to "My Blog", posts_path %>   
+<%= bootstrap_form_for @post do |f| %>
+	<p>
+		
+		<%= f.text_field :userid %>
+	</p>
+	<p>
+		<%= f.text_field :title %>
+	</p>
+	<p>
+		<%= f.text_area :content %>
+	</p>
+
+	<p>
+		<%= f.submit "Add a New Post" %>
+	</p>
+<% end %>
