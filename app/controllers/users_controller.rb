@@ -19,8 +19,4 @@ class UsersController < ApplicationController
 			render "new"
 		end
 	end
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> login

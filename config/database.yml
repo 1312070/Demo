@@ -16,11 +16,7 @@ development:
   port: 5432
   pool: 5
   username: postgres
-<<<<<<< HEAD
   password: 123abc
-=======
-  password: 123456
->>>>>>> login
   schema_search_path: public
 
 # Warning: The database defined as "test" will be erased and
