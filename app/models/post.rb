@@ -4,3 +4,4 @@ class Post < ApplicationRecord
 	validates :title, :length => {:minimum => 2}
 	validates :title, :uniqueness => {:message => "already taken"}
 end
+

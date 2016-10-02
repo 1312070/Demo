@@ -1,6 +1,9 @@
 class UsersController < ApplicationController
+<<<<<<< HEAD
 	def index
 	end
+=======
+>>>>>>> 9a120180d3ac1f6960364cc0f6de617437c21261
 	def new
 		@user = User.new
 	end
@@ -21,5 +24,13 @@ class UsersController < ApplicationController
 			render "new"
 		end
 	end
+<<<<<<< HEAD
 end
 
+=======
+<<<<<<< HEAD
+end
+=======
+end
+>>>>>>> login
+>>>>>>> 9a120180d3ac1f6960364cc0f6de617437c21261
