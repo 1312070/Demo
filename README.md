@@ -38,6 +38,9 @@ Danh sách chức năng **thêm** đã làm nhưng chưa được liệt kê ở
 * [ ] Người dùng có thể gửi tin nhắn cho người dùng ngoài hệ thống. Khi đó, người nhận sẽ nhận được 1 email chứa link đăng ký tài khoản. Sau khi đăng ký tài khoản, họ có thể xem tin nhắn đã nhận.
 
 Danh sách chức năng **phụ** đã làm nhưng không được liệt kê ở trên:
+* [x] Có chức năng tạo một người dùng mới.
+* [x] Người dùng xem tất cả các bài post của bản thân
+* [x] Sử dụng cơ chế kiểm định(validate) khi tạo một user hoặc một bài post để đáp ứng một số định dạng.
 
 Các chuẩn đầu ra cần thực hiện:
 * [ ] Git với Centralize Workflow
