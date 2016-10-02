@@ -15,11 +15,14 @@ ActiveRecord::Schema.define(version: 20161002050500) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+<<<<<<< HEAD
   create_table "comments", force: :cascade do |t|
     t.string "ctitle"
     t.text   "comment"
   end
 
+=======
+>>>>>>> login
   create_table "posts", force: :cascade do |t|
     t.string  "title"
     t.text    "content"
