@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 
-class User < ApplicationRecord
-	
-
-
-end
-=======
 class User < ApplicationRecord
 	
 	def self.authenticate(username, pass)
@@ -16,4 +9,4 @@ class User < ApplicationRecord
 	end
 
 end
->>>>>>> login
+
