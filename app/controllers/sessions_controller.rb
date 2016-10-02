@@ -1,9 +1,7 @@
 class SessionsController < ApplicationController
-<<<<<<< HEAD
 	def index
 	end
-=======
->>>>>>> 9a120180d3ac1f6960364cc0f6de617437c21261
+
 	def new
 		@user = User.new
 	end
