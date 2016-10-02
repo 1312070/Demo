@@ -11,7 +11,7 @@
 	<% end %>
 	<p>
 		
-		<%= f.text_field(:userid ,:value => session[:user_id]) %>
+		<%= f.text_field(:userid ,:value => session[:user_id] , :readonly => true) %>
 	</p>
 	<p>
 		<%= f.text_field :title %>

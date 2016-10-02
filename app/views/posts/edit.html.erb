@@ -1,6 +1,6 @@
 <h1>Edit Post </h1>
 
-<%= form_for @post do |f| %>
+<%= bootstrap_form_for @post do |f| %>
 	<% if @post.errors.any? %>
 	<h2>Error:</h2>
 	<ul>
@@ -10,11 +10,11 @@
 	</ul>
 	<% end %>
 	<p>
-		<%= f.label :title %><br />
+		
 		<%= f.text_field :title %>
 	</p>
 	<p>
-		<%= f.label :content %><br />
+		
 		<%= f.text_area :content %>
 	</p>
 	<p>
