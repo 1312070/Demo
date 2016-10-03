@@ -41,7 +41,14 @@ gem 'rails-footnotes', '~> 4.0'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'heroku'
+
+
+gem 'redcarpet', '1.17.2'
+gem 'gollum'
+
+gem 'albino'
+
+gem 'nokogiri'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
