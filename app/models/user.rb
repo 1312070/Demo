@@ -15,6 +15,8 @@ class User < ApplicationRecord
 	validates :username, :uniqueness => {:message => "username already taken"}
 	validates :password, :length => {:minimum => 5}
 	validates :email, :uniqueness => {:message => "email already taken"}
+	has_many :comments
+	has_many :posts
 
 end
 
